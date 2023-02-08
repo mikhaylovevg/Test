@@ -8,10 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    lazy var testLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Hello"
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.addSubview(testLabel)
+        
+        testLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        testLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
 
     var test = 0
