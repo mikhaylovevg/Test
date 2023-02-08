@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10DA5E3D2993BBB8005E5BCB /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA5E3C2993BBB8005E5BCB /* BaseButton.swift */; };
+		10DA5E3F2993BED7005E5BCB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 10DA5E3E2993BED7005E5BCB /* .gitignore */; };
 		6C4401962993881100B221CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4401952993881100B221CF /* AppDelegate.swift */; };
 		6C4401982993881100B221CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4401972993881100B221CF /* SceneDelegate.swift */; };
 		6C44019A2993881100B221CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4401992993881100B221CF /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		10DA5E3C2993BBB8005E5BCB /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		10DA5E3E2993BED7005E5BCB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6C4401922993881100B221CF /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4401952993881100B221CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C4401972993881100B221CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		6C4401892993881100B221CF = {
 			isa = PBXGroup;
 			children = (
+				10DA5E3E2993BED7005E5BCB /* .gitignore */,
 				6C4401942993881100B221CF /* Test */,
 				6C4401932993881100B221CF /* Products */,
 			);
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DA5E3F2993BED7005E5BCB /* .gitignore in Resources */,
 				6C4401A22993881200B221CF /* LaunchScreen.storyboard in Resources */,
 				6C44019F2993881200B221CF /* Assets.xcassets in Resources */,
 				6C44019D2993881100B221CF /* Main.storyboard in Resources */,
