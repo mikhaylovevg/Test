@@ -11,7 +11,8 @@ class ViewController: UIViewController {
     
     lazy var testLabel: UILabel = {
         let label = UILabel()
-        label.text = "Hello"
+        label.text = "Hello World"
+        label.textColor = .green
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
