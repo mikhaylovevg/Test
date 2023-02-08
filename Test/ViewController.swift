@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 
     var test = 0
     
-    var MihailDV = 12
+    var MihailDV = 0
     
 }
 
